@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+
+roboflow:
+  workspace: general-1zdku
+  project: football-player-detection_v3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/general-1zdku/football-player-detection_v3/dataset/1
